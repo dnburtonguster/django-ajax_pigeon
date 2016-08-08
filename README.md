@@ -13,3 +13,6 @@ I created a dictionary that maps US (and some other North American) area codes t
 
 ###Assumptions
 To work locally, no further database details are needed, as sqlite3 settings are default.  
+
+###Screenshot
+![Alt text](http://i.imgur.com/YvrId6ol.png)
