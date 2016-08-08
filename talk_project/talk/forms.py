@@ -14,6 +14,12 @@ class PostForm(forms.ModelForm):
             ),
         }
 
+    def save(self):
+        post = super().save(commit=False)
+        post.entry = self.entry
+        post.save()
+        return post
+
     #custom python cleaning function
     # def clean_text(self):
     #     text = self.cleaned_data.get['text']
